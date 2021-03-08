@@ -12,11 +12,12 @@ To learn more about **Charmed Kubernetes**®, including how to install it on you
 
 ## Contributing to Charmed Kubernetes®
 
-Charmed Kubernetes is an open source project and we welcome contributions of code, additions to the documentation, feature requests and any and all types of feedback. For more on Contributing, see the [official documentation][docs].
+Charmed Kubernetes is an open source project and we welcome contributions of code, additions to the documentation, feature requests and any and all types of feedback. For more on contributing, see the [official documentation][docs].
 
 ## This Juju bundle
 
 This repository contains the code to generate charm bundles used to deploy Charmed Kubernetes, as well as some bundle overlays used to preconfigure certain features (for example, for running on particular clouds). In general, users will fetch the published bundles from the [Charm Store][], not this repository. If you are working on the bundle itself, see the [BUILD.md](./BUILD.md) file for more information on building the Charmed Kubernetes bundles.
+To contribute to this bundle, see the [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
 
 ## Other repositories
 
