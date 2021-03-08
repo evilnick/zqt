@@ -10,11 +10,28 @@ Google, Microsoft, and many other institutions run Kubernetes on Ubuntu because 
 
 To learn more about **Charmed Kubernetes**®, including how to install it on your own cloud, please visit the [Documentation](https://ubuntu.com/kubernetes/docs).
 
-[![](https://s18955.pcdn.co/wp-content/uploads/2018/02/github.png)](https://github.com/user/repository/subscription)
-
 ## Contributing to Charmed Kubernetes®
+
+Charmed Kubernetes is an open source project and we welcome contributions of code, additions to the documentation, feature requests and any and all types of feedback. For more on Contributing, see the [official documentation][docs].
 
 ## This Juju bundle
 
+This repository contains the code to generate charm bundles used to deploy Charmed Kubernetes, as well as some bundle overlays used to preconfigure certain features (for example, for running on particular clouds). In general, users will fetch the published bundles from the [Charm Store][], not this repository. If you are working on the bundle itself, see the [BUILD.md](./BUILD.md) file for more information on building the Charmed Kubernetes bundles.
+
 ## Other repositories
 
+The Charmed Kubernetes organisation has a large number of repositories. The majority of these are for specific Juju charms, used to deploy the applications which go to make up Charmed Kubernetes. A few which may be of particular interest:
+
+- The Kubernetes Master charm  - <https://github.com/charmed-kubernetes/charm-kubernetes-master>
+- The Kubernetes Worker charm - <https://github.com/charmed-kubernetes/charm-kubernetes-worker>
+- The MetalLB operator charm - <https://github.com/charmed-kubernetes/metallb-operator>
+
+Other repositories include:
+
+- The Jenkins scripts used to build and test Charmed Kubernetes - <https://github.com/charmed-kubernetes/jenkins>
+- The Charmed Kubernetes documentation - <https://github.com/charmed-kubernetes/kubernetes-docs>
+ 
+
+<!-- LINKS -->
+[Charm Store]: https://jaas.ai/charmed-kubernetes/bundle
+[docs]: https://ubuntu.com/kubernetes/docs
