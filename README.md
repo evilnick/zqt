@@ -32,6 +32,7 @@ Other repositories include:
 - The Jenkins scripts used to build and test Charmed Kubernetes - <https://github.com/charmed-kubernetes/jenkins>
 - The Charmed Kubernetes documentation - <https://github.com/charmed-kubernetes/kubernetes-docs>
  
+<!-- IMAGES -->
 
 <!-- LINKS -->
 [Charm Store]: https://jaas.ai/charmed-kubernetes/bundle
